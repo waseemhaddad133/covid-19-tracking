@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>COVID-19</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="statistic">
+        <div class="total_case_box">
+          <h2>total</h2>
+          <p id="total_cases"></p>
+        </div>
+        <div class="box_wrapper">
+          <div class="box">
+            <h2>Total death</h2>
+            <p id="total_death"></p>
+          </div>
+
+          <div class="box">
+            <h2>Recovery</h2>
+            <p id="total_recovered"></p>
+          </div>
+
+          <div class="box">
+            <h2>New case</h2>
+            <p id="new_case"></p>
+          </div>
+
+          <div class="box">
+            <h2>New death</h2>
+            <p id="new_death"></p>
+          </div>
+        </div>
+
+        <table id="countries_stat">
+          <tr>
+            <th>Country</th>
+            <th>Cases</th>
+            <th>Deaths</th>
+            <th>critical cases</th>
+            <th>total recoveries</th>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
