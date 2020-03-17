@@ -63,6 +63,7 @@ body {
 
 /*table*/
 table {
+  position: center;
   width: 100%;
   padding: 15px 10px;
   margin: 10px 0;
