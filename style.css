@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: #265d9c;
+  background-color: #5388c5;
 }
 
 .wrapper {
@@ -92,7 +92,7 @@ tr:nth-child(even) {
 }
 
 tr:nth-child(odd) {
-  background-color: #424242;
+  background-color: #757575;
   color: #fafafa;
 }
 
