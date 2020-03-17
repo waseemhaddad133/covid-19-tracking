@@ -68,6 +68,7 @@ table {
   margin: 10px 0;
   text-align: center;
   border-spacing: 0;
+  font-size: 1vw;
 }
 
 tr:first-child {
